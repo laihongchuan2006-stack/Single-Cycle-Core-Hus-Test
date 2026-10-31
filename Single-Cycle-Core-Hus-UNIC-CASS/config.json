@@ -1,0 +1,25 @@
+{
+    "DESIGN_NAME": "mips_top",
+    "VERILOG_FILES": [
+        "dir::src/mips_top.v",
+        "dir::src/main_control.v",
+        "dir::src/alu_decoder.v",
+        "dir::src/alu.v",
+        "dir::src/datapath.v",
+        "dir::src/regfile.v",
+        "dir::src/imem.v",
+        "dir::src/dmem.v",
+        "dir::src/adder.v",
+        "dir::src/flopr.v",
+        "dir::src/mux2.v",
+        "dir::src/signext.v",
+        "dir::src/sl2.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "clk",
+    "CLOCK_PERIOD": 30.0,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": [0, 0, 750, 750],
+    "PL_TARGET_DENSITY_PCT": 45,
+    "GRT_ALLOW_CONGESTION": true
+}
